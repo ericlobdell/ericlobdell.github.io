@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ericlobdell.github.io/posts/my-first-post/</loc>
+    <loc>https://ericlobdell.github.io/posts/my-first-post/</loc>
     <lastmod>2018-05-13T13:32:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ericlobdell.github.io/categories/</loc>
+    <loc>https://ericlobdell.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ericlobdell.github.io/</loc>
-    <lastmod>2018-05-13T13:32:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ericlobdell.github.io/posts/</loc>
+    <loc>https://ericlobdell.github.io/</loc>
     <lastmod>2018-05-13T13:32:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ericlobdell.github.io/tags/</loc>
+    <loc>https://ericlobdell.github.io/posts/</loc>
+    <lastmod>2018-05-13T13:32:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericlobdell.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
