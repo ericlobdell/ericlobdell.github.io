@@ -6,19 +6,9 @@
     <description>Recent content on Eric Lobdell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 May 2018 13:32:00 -0400</lastBuildDate>
     
 	<atom:link href="https://ericlobdell.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://ericlobdell.github.io/posts/my-first-post/</link>
-      <pubDate>Sun, 13 May 2018 13:32:00 -0400</pubDate>
-      
-      <guid>https://ericlobdell.github.io/posts/my-first-post/</guid>
-      <description>Hello Hugo! I wish this would show up in the browser!</description>
-    </item>
     
   </channel>
 </rss>
