@@ -52,11 +52,28 @@ const securityHeaders = [
   },
 ]
 
+const isGithubActions = process.env.GITHUB_ACTIONS || false
+
+let assetPrefix = ''
+let basePath = ''
+
+if (isGithubActions) {
+  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+
+  assetPrefix = `/${repo}/`
+  basePath = `/${repo}`
+}
+
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
+  assetPrefix: assetPrefix,
+  basePath: basePath,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
+  },
+  images: {
+    unoptimized: true,
   },
   async headers() {
     return [
