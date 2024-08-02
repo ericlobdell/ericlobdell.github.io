@@ -26,7 +26,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
-
+  site: 'https://ericlobdell.github.io',
   integrations: [
     tailwind({
       applyBaseStyles: false,
