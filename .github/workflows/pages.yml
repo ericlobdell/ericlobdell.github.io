@@ -23,7 +23,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: yarn
       - id: configurepages
         uses: actions/configure-pages@v5
       - name: Restore cache
@@ -33,8 +32,8 @@ jobs:
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
-      - run: yarn
-      - run: yarn build
+      - run: npm install
+      - run: npm run build
         env:
           EXPORT: 1
           UNOPTIMIZED: 1
