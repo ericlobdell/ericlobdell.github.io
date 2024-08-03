@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: 'Eric Lobdell | Developer Website',
   author: 'Tails Azimuth',
   headerTitle: 'Eric Lobdell',
   description: 'A blog created with Next.js and Tailwind.css',
@@ -34,7 +34,7 @@ const siteMetadata = {
     },
     // plausibleAnalytics: {
     //   plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
-         // If you are hosting your own Plausible.
+    // If you are hosting your own Plausible.
     //   src: '', // e.g. https://plausible.my-domain.com/js/script.js
     // },
     // simpleAnalytics: {},
