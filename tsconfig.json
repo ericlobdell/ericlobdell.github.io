@@ -28,7 +28,9 @@
         "name": "next"
       }
     ],
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["mdast", "mdx"]
   },
   "include": [
     "next-env.d.ts",

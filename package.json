@@ -46,7 +46,8 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^8.0.1",
-    "@types/mdx": "^2.0.12",
+    "@types/mdast": "^4.0.4",
+    "@types/mdx": "^2.0.13",
     "@types/react": "^18.2.73",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
